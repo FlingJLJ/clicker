@@ -10,7 +10,7 @@ while true do -- main loop
     
     io.read()
     
-    money = money + 1
+    money = money + dps
   end
   
   dps = dps + 1
