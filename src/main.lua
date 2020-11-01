@@ -3,7 +3,8 @@ local dps = 1
 
 while true do -- main loop
   for _ = 1, 10 do
-    os.execute("cls")
+    os.execute("clear > nul")
+    os.execute("cls > nul")
     
     print("dps: " .. dps)
     print("money: " .. money)
